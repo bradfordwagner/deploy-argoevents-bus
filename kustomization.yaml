@@ -4,10 +4,4 @@ kind: Kustomization
 resources:
   - https://raw.githubusercontent.com/argoproj/argo-events/stable/examples/eventbus/native.yaml
 
-#patchesStrategicMerge:
-#  - overlays/workflow-controller-configmap.yaml
-#  - overlays/argo-server-role.yaml
-#  - overlays/argo-server-sa.yaml
-#  - overlays/argo-server-deploy.yaml
-
 namespace: argo-events
